@@ -54,6 +54,10 @@ This data contains 7 different files:
 - Scrollytelling is the concept I've been discussing of following a narrative as a user scrolls down the page, all the while the background and other visuals are changing to help support this narrative
 - There are several examples on this page, including one on [The impact of COVID on Africa](https://mo.ibrahim.foundation/our-research/data-stories/covid-19-africa-challenging-road-recovery)
 
+### Option Choice
+- I believe what I have mentioned above would qualify as a "interactive map" (since "Spain Lives in Flats" is labeled as such on the webpage), therefore Option A
+- I have put a relevant question below, but I am hoping that this concept of "scrollytelling" that explores a map of the world with some integrated interactivity is acceptable
+
 # Questions
 1. I mentioned this above, but I am confused by two of the files in the Kaggle data, which are the "adult_population_covered" datasets. Could you held clue me into what these datasets are describing?
 2. Do you think this data alone would be enough to build a quality interactive website? I'm thinking I can build a narrative off the data and do something like the "Spain Lives In Flats" site where we keep looking at different parts of the world. If not, I can for sure look for more data, but I've found that sometimes one data source can be enough like with my static project
