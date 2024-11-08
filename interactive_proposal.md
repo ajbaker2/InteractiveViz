@@ -69,3 +69,4 @@ This data contains 7 different files:
 - The above info about how well issues are being handled could be backed up by the share of the population which is receiving proper care for anxiety
 - Later in the narrative, I'd like to zoom in on the U.S. and its depression data (since we are specifically given this) and explore both the frequency and severity of this
 ![Mockup 1](scratch/mockup1.jpeg)
+![Mockup 2](scratch/mockup2.jpeg)
