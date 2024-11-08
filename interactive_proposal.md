@@ -60,3 +60,12 @@ This data contains 7 different files:
 3. Something like "Spain Lives in Flats" does not necessarily have lots of "user interactivity", but instead employs more of the aforementioned scrollytelling method. Would choosing something like this be appropriate for this project, or does there need to be clearer user input onto the page?
 
 # Mock-up
+- The general idea is to do something similar to what "Spain Lives in Flats" has done, which mostly follows a scrollable narrative that adjusts the visualizations as one goes down the page
+- I would begin with an overview, showing a globe with the text panel introducing the mental health crisis and the general impact it can have on society
+- Next, before getting into the scrollable narrative, I want the first part to allow the user to explore the global data, focusing on a rotating globe that shows a chloropleth of the prevalence of a a specific disorder for each country in a specific year
+    - I'd like to have a drop down here that allows the user to change the year we are looking at
+    - I'd also like the user to be able to chage what disorder they are looking at as well
+- following this would begin the fixed narrative, which zooms in on different regions of the world and highlights mental health disorder prevalence, with pop out graphs that perhaps discuss the burden (DALYs) of these countries, potentially cluing us into how well these issues are being handled
+- The above info about how well issues are being handled could be backed up by the share of the population which is receiving proper care for anxiety
+- Later in the narrative, I'd like to zoom in on the U.S. and its depression data (since we are specifically given this) and explore both the frequency and severity of this
+![Mockup 1](scratch/mockup1.jpeg)
