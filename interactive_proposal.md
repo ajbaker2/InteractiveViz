@@ -14,7 +14,7 @@ Therefore, I wanted to find data for countries over time that contains measures 
 # Data
 1. [Mental Health- Kaggle](https://www.kaggle.com/datasets/imtkaggleteam/mental-health?select=3-+adult-population-covered-in-primary-data-on-the-prevalence-of-major-depression.csv)
 
-## Description
+### Description
 This data contains 7 different files:
 1. **mental-illness-prevalence** (observation for each country for each year 1990-2019)
 - gives shares of population with various disorders, including bipolar, anxiety, eating, etc.
@@ -57,5 +57,6 @@ This data contains 7 different files:
 # Questions
 1. I mentioned this above, but I am confused by two of the files in the Kaggle data, which are the "adult_population_covered" datasets. Could you held clue me into what these datasets are describing?
 2. Do you think this data alone would be enough to build a quality interactive website? I'm thinking I can build a narrative off the data and do something like the "Spain Lives In Flats" site where we keep looking at different parts of the world. If not, I can for sure look for more data, but I've found that sometimes one data source can be enough like with my static project
+3. Something like "Spain Lives in Flats" does not necessarily have lots of "user interactivity", but instead employs more of the aforementioned scrollytelling method. Would choosing something like this be appropriate for this project, or does there need to be clearer user input onto the page?
 
 # Mock-up
