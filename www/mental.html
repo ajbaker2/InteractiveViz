@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CO2 Emissions Scrollytelling</title>
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <!-- title section -->
+    <div id="title-container">
+      <h1>CO2 Emissions Around the World</h1>
+      <p id="scroll-indicator">Scroll to begin</p>
+    </div>
+
+    <!-- svg container for the map visualization -->
+    <div id="visualization-container">
+      <svg id="map" width="1550" height="950"></svg>
+    </div>
+
+    <!-- tooltip for interactivity -->
+    <div id="tooltip" class="hidden"></div>
+
+    <!-- container for scrollytelling steps -->
+    <div class="scrollytelling-container">
+      <div class="step" data-step="1">
+        <p>
+          introduction: why CO2 emissions matter and the focus on 2019 as a
+          benchmark year.
+        </p>
+      </div>
+      <div class="step" data-step="2">
+        <p>
+          step 2: overview of global CO2 emissions in 2019 with notable
+          outliers.
+        </p>
+      </div>
+      <div class="step" data-step="3">
+        <p>
+          step 3: key contributors, focusing on the US, China, the EU, and
+          India.
+        </p>
+      </div>
+      <div class="step" data-step="4">
+        <p>
+          step 4: regional disparities between developed and developing nations.
+        </p>
+      </div>
+      <div class="step" data-step="5">
+        <p>step 5: sectoral contributions to emissions, if data permits.</p>
+      </div>
+      <div class="step" data-step="6">
+        <p>
+          step 6: policy snapshots of impactful efforts vs. challenges in 2019.
+        </p>
+      </div>
+      <div class="step" data-step="7">
+        <p>step 7: emissions and equity — per capita and GDP influences.</p>
+      </div>
+      <div class="step" data-step="8">
+        <p>conclusion: challenges and opportunities for global cooperation.</p>
+      </div>
+    </div>
+
+    <!-- fixed textbox for transitional explanations -->
+    <div id="text-box"></div>
+
+    <!-- dropdown for switching data metrics -->
+    <div id="dropdown-container">
+      <label for="metric-select">Choose data to display:</label>
+      <select id="metric-select">
+        <option value="Kilotons of Co2">Total Emissions (Kilotons)</option>
+        <option value="Metric Tons Per Capita">Emissions Per Capita</option>
+      </select>
+    </div>
+
+    <!-- external scripts for functionality -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/2.2.1/scrollama.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="interact.js"></script>
+  </body>
+</html>
