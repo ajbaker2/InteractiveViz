@@ -2,6 +2,11 @@
 
 Andrew Baker
 
+## New Dataset Used
+https://www.kaggle.com/datasets/ravindrasinghrana/carbon-co2-emissions/data
+
+The above dataset contains information regarding carbon emissions by country.
+
 ## What is your current goal? Has it changed since the proposal?
 In terms of the website concept that I wanted to achieve, my goal has not changed all that much.
 
@@ -24,8 +29,15 @@ At the end, a dropdown will appear at the bottom of the screen, and the user wil
 
 ## Include a _numbered_ list of questions for us to respond to.
 
-1. 
+1. I have been able to match some of the initially unmatched countries to data in the shape file data, as seen in the data cleaning notebook in www. However, there are still some countries that I have not been able to match/do not know what exactly to do with them, and they end up appearing white on the map:
+    1. Greenland - It's owned by Denmark, so should it take the same value as Denmark? If not, how should I proceed?
+    2. Western Sahara - Due to the conflict between the Sahrawi Arab Democratic Republic and the Kingdom of Morocco, there is not data in the emissions dataset for Western Sahara. How should I approach this?
+    3. Côte d'Ivoire - I am unsure why there is no data here, and it is not under "Ivory Coast" either. How should I approach this?
+    4. Taiwan - How should I approach this?
+    5. Palestine - How should I appraoch this?
+    6. Somaliland - How should I approach this?
+    7. Kosovo - How should I approach this?
 
-2. 
+2. Do you think this data set is a good idea? I was a little pressed for time having to find a new dataset alongside creating the webpage, so I'm hoping this is acceptable but open to shifting gears for the final.
 
-3. 
+3. Is it possible to add time-series charts for individual countries that are contained within the hover/tooltip popouts? I feel like my webpage is lacking a little something, and I'm thinking this would be a good way to round it out.
