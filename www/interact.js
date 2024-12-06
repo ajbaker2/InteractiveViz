@@ -46,7 +46,7 @@ const metricSelect = d3.select("#metric-select");
 // promise all because multiple things to load
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"),
-  d3.csv("/../Data/CO2_emissions_2019.csv"),
+  d3.csv("/Data/CO2_emissions_2019.csv"),
 ]).then(([data, emissions]) => {
   geoData = topojson.feature(data, data.objects.countries);
 
