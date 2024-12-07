@@ -42,6 +42,7 @@ const textBox = d3.select("#text-box");
 const tooltip = d3.select("#tooltip");
 const dropdownContainer = d3.select("#dropdown-container");
 const metricSelect = d3.select("#metric-select");
+const progressBar = d3.select("#progress-bar");
 
 // promise all because multiple things to load
 Promise.all([
@@ -52,7 +53,7 @@ Promise.all([
 
   emissionsData = emissions;
 
-  // creating two datasets as key value pairs
+  // creating two datasets as key-value pairs
   const emissionsByCountry = {};
   emissionsData.forEach((d) => {
     emissionsByCountry[d.Country] = {
@@ -61,7 +62,7 @@ Promise.all([
     };
   });
 
-  // two color scales for each dataset, these honestly need adjusting
+  // two color scales for each dataset
   const colorScales = {
     total: d3
       .scaleLog()
@@ -110,11 +111,11 @@ Promise.all([
     .attr("d", path)
     .attr("fill", (d) => {
       const emission = emissionsByCountry[d.properties.name]?.total;
-      return emission ? colorScales.total(emission) : "#ffffff";
+      return emission ? colorScales.total(emission) : "#cccccc";
     })
     .attr("orig-fill", (d) => {
       const emission = emissionsByCountry[d.properties.name]?.total;
-      return emission ? colorScales.total(emission) : "#ffffff";
+      return emission ? colorScales.total(emission) : "#cccccc";
     })
     .attr("stroke", "#333")
     .on("mouseover", function (event, d) {
@@ -165,6 +166,19 @@ function zoomTo(stepIndex) {
     .style("opacity", 1)
     .style("transform", "translate(-50%, 0)")
     .text(stepTexts[stepIndex]);
+
+  // Update progress bar
+  const progress = ((stepIndex + 1) / stepTexts.length) * 100;
+  progressBar.style("width", `${progress}%`);
+
+  // Hide progress bar and show dropdown at the last step
+  if (stepIndex === stepTexts.length - 1) {
+    progressBar.style("display", "none");
+    dropdownContainer.style("display", "block");
+  } else {
+    progressBar.style("display", "block");
+    dropdownContainer.style("display", "none");
+  }
 }
 
 // hide text box on step exit
@@ -182,18 +196,9 @@ function setupScrollama() {
     .onStepEnter((response) => {
       console.log("Step index:", response.index);
       zoomTo(response.index);
-      if (response.index === stepTexts.length - 1) {
-        dropdownContainer.style("display", "block");
-      } else {
-        dropdownContainer.style("display", "none");
-      }
     })
     .onStepExit((response) => {
       hideTextBox();
-
-      if (response.index === stepTexts.length - 1) {
-        dropdownContainer.style("display", "none");
-      }
     });
 
   window.addEventListener("resize", scroller.resize);
