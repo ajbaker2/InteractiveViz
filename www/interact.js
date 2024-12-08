@@ -271,11 +271,11 @@ function zoomTo(stepIndex) {
     .style("transform", "translate(-50%, 0)")
     .text(stepTexts[stepIndex]);
 
-  // Update progress bar
+  // update progress bar
   const progress = ((stepIndex + 1) / stepTexts.length) * 100;
   progressBar.style("width", `${progress}%`);
 
-  // Hide progress bar and show dropdown at the last step
+  // hide progress bar and show dropdown at the last step
   if (stepIndex === stepTexts.length - 1) {
     progressBar.style("display", "none");
     dropdownContainer.style("display", "block");

@@ -161,10 +161,10 @@ body {
 }
 
 #data-source {
-    font-size: 0.75em; /* Smaller text */
-    color: #777; /* Lighter gray for subtlety */
+    font-size: 0.5em;
+    color: #d4d4d4;
     text-align: center;
-    margin-top: 10px; /* Reduced margin */
+    margin-top: 10px;
   }
   
   #data-source a {
