@@ -9,9 +9,16 @@
   <body>
     <!-- title section -->
     <div id="title-container">
-      <h1>CO2 Emissions Around the World</h1>
-      <p id="scroll-indicator">Scroll to begin</p>
-    </div>
+        <h1>CO2 Emissions Around the World (2019)</h1>
+        <p id="scroll-indicator">Scroll to begin</p>
+      
+        <!-- Data source section -->
+        <p id="data-source">
+          Data Source: <a href="https://www.macrotrends.net/countries" target="_blank" rel="noopener noreferrer">Macrotrends.net</a><br>
+          Scraped Data from: <a href="https://www.kaggle.com/datasets/ravindrasinghrana/carbon-co2-emissions/data" target="_blank" rel="noopener noreferrer">Kaggle - CO2 Emissions Dataset</a>
+        </p>
+      </div>
+      
 
     <!-- svg container for the map visualization -->
     <div id="visualization-container">
@@ -19,46 +26,36 @@
     </div>
 
     <!-- tooltip for interactivity -->
-    <div id="tooltip" class="hidden"></div>
+    <div id="tooltip" class="hidden">
+      <div class="tooltip-content"></div>
+      <!-- Existing tooltip content -->
+    </div>
 
     <!-- container for scrollytelling steps -->
     <div class="scrollytelling-container">
       <div class="step" data-step="1">
-        <p>
-          introduction: why CO2 emissions matter and the focus on 2019 as a
-          benchmark year.
-        </p>
+        <p>Introduction to CO2 Emissions (General Context)</p>
       </div>
       <div class="step" data-step="2">
-        <p>
-          step 2: overview of global CO2 emissions in 2019 with notable
-          outliers.
-        </p>
+        <p>Global CO2 Emissions in 2019</p>
       </div>
       <div class="step" data-step="3">
-        <p>
-          step 3: key contributors, focusing on the US, China, the EU, and
-          India.
-        </p>
+        <p>Key Contributors to CO2 Emissions</p>
       </div>
       <div class="step" data-step="4">
-        <p>
-          step 4: regional disparities between developed and developing nations.
-        </p>
+        <p>Key Contributers 2</p>
       </div>
       <div class="step" data-step="5">
-        <p>step 5: sectoral contributions to emissions, if data permits.</p>
+        <p>Regional Disparities</p>
       </div>
       <div class="step" data-step="6">
-        <p>
-          step 6: policy snapshots of impactful efforts vs. challenges in 2019.
-        </p>
+        <p>Policy Snapshots and Observations</p>
       </div>
       <div class="step" data-step="7">
-        <p>step 7: emissions and equity — per capita and GDP influences.</p>
+        <p>Emissions and Equity</p>
       </div>
       <div class="step" data-step="8">
-        <p>conclusion: challenges and opportunities for global cooperation.</p>
+        <p>Conclusion: Challenges and Opportunities</p>
       </div>
     </div>
 
