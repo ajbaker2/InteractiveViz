@@ -54,7 +54,7 @@ const progressBar = d3.select("#progress-bar");
 // promise all because multiple things to load
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"),
-  d3.csv("/www/Data/CO2_emissions_all.csv"),
+  d3.csv("/Data/CO2_emissions_all.csv"),
 ]).then(([data, emissions]) => {
   geoData = topojson.feature(data, data.objects.countries);
 
