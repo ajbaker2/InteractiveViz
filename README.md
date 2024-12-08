@@ -1,5 +1,7 @@
-# InteractiveViz
-This is a repo containing the progress towards building an interactive data visualization project.
+# Examining CO2 Emissions Around the World
 
-## Topic
-Mental health over time for various countries accross the world.
+## Andrew Baker
+
+## Description
+As the climate crisis continues to worsen, it is important to take a critical lens to the carbon emissions being produced by various regions and countries. Understanding what drives these outcomes as well as who contributes what will get us closer to developing effective policies to slow rising temperatures.
+
