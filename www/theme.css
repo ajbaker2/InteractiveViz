@@ -161,18 +161,17 @@ body {
 }
 
 #data-source {
-    font-size: 0.5em;
-    color: #d4d4d4;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  #data-source a {
-    color: #0077cc;
-    text-decoration: none;
-  }
-  
-  #data-source a:hover {
-    text-decoration: underline;
-  }
-  
+  font-size: 0.5em;
+  color: #d4d4d4;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#data-source a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#data-source a:hover {
+  text-decoration: underline;
+}

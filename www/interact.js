@@ -16,22 +16,21 @@ let geoData, emissionsData;
 // texts for each step in the story
 const stepTexts = [
   "Carbon dioxide (CO2) emissions are a critical driver of climate change, playing a central role in intensifying global warming and its cascading effects. Rising CO2 levels are directly linked to observable phenomena such as increasing global temperatures, more frequent and severe extreme weather events, and accelerating sea level rise, all of which pose existential challenges to ecosystems and human societies alike.",
-  
+
   "The year 2019 holds particular significance in this narrative. It serves not only as a pre-pandemic baseline for global emissions but also as a pivotal moment in climate advocacy and policy. The world witnessed a surge in climate activism, symbolized by Greta Thunberg’s global movement, and critical updates to national commitments under the Paris Agreement. Against this backdrop, this analysis goes beyond a descriptive recount of emissions data to examine the broader patterns of inequality, responsibility, and opportunity embedded in the 2019 emissions landscape, offering insights into the collective path forward in addressing the climate crisis.",
-  
+
   "When discussing key contributors, the United States is typically one of the first countries brought up. Its heavy reliance on fossil fuels for electricity and several forms of transportation, alongside its sprawling infrastructure, leads to no surprise that it is one of the largest emitters in the world.",
-  
+
   "Although it is often considered alongside the United States as part of the developed world, the European Union (and many other parts of Europe) has taken a much different approach to emissions and the resulting climate crisis. We have seen declines in emissions among EU countries, driven by ambitious policies regarding carbon pricing, renewable energy, and efficiency standards. Thus, we can see that, given appropriate attention and response, developed countries have at least some control over their environmental impact.",
-  
+
   "As of 2019, China was the largest emitter of carbon dioxide in the world. With heavy reliance on coal as an energy source and having experienced rapid industrialization, it is no surprise that the level of emissions in China is so high. Similarly, India has been undergoing rapid economic growth, which has led to a surge in emissions. Despite this, its per capita emissions remain relatively low among high emitters, highlighting the vast inequalities in global carbon footprints.",
-  
+
   "Regional disparities in CO2 emissions are closely tied to levels of economic development and industrialization. Wealthier nations, which underwent industrialization earlier, are responsible for the majority of historical emissions and have largely stabilized their output due to shifts toward service economies and renewable energy. In contrast, many developing nations, particularly in Africa, are in earlier stages of industrial growth. While their emissions remain low in absolute and per capita terms, they are beginning to rise as these countries expand economically.",
-  
+
   "Despite their negligible emissions, small island nations in Oceania and beyond face disproportionate climate risks, such as rising sea levels and intensified storms. Similarly, landlocked countries often struggle with renewable energy adoption due to limited geographic resources, compounding the challenges of sustainable development. By observing historical trends, these regional disparities can be contextualized to show how economic inequality continues to shape both contributions to and vulnerabilities from climate change.",
-  
+
   "The challenge of addressing carbon emissions and the climate crisis as a whole is not only a technical issue but also a moral one, prompting us to question the distribution of responsibility. Is it fair to hold low-emitting countries, whose contributions to the crisis are marginal in comparison, to the same standards as countries like the U.S., with energy-intensive lifestyles? Regardless of the answer, the longstanding battle with climate change requires global cooperation at a level we have never seen before. From observing EU countries, it is clear that there are steps nations can take to curb their harmful effects, but we must hold everyone, especially large emitters, accountable for their part in this fight.",
 ];
-
 
 // coordinates for the map zoom for each step
 const zoomCoordinates = [
@@ -125,7 +124,6 @@ Promise.all([
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    
     const xScale = d3
       .scaleLinear()
       .domain([
@@ -224,7 +222,6 @@ Promise.all([
         .style("left", `${event.pageX + 10}px`)
         .style("top", `${event.pageY + 10}px`);
 
-     
       d3.select("#tooltip").selectAll("div").remove();
       d3.select("#tooltip")
         .append("div")
