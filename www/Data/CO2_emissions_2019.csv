@@ -20,7 +20,7 @@ Belize,Americas,01-01-2019,640.0,1.64
 Benin,Africa,01-01-2019,7300.0,0.59
 Bhutan,Asia,01-01-2019,1050.0,1.37
 Bolivia,Americas,01-01-2019,22340.0,1.9
-Bosnia and Herz.,Europe,01-01-2019,21070.0,6.27
+Bosnia,Europe,01-01-2019,21070.0,6.27
 Botswana,Africa,01-01-2019,7250.0,2.9
 Brazil,Americas,01-01-2019,434299.99,2.05
 Brunei,Asia,01-01-2019,6990.0,15.96
@@ -31,7 +31,7 @@ Cabo Verde,Africa,01-01-2019,650.0,1.13
 Cambodia,Asia,01-01-2019,16180.0,1.0
 Cameroon,Africa,01-01-2019,9430.0,0.37
 Canada,Americas,01-01-2019,580210.02,15.43
-Central African Rep.,Africa,01-01-2019,240.0,0.05
+Central African Republic,Africa,01-01-2019,240.0,0.05
 Chad,Africa,01-01-2019,2250.0,0.14
 Chile,Americas,01-01-2019,91370.0,4.8
 China,Asia,01-01-2019,10707219.73,7.61
@@ -41,19 +41,19 @@ Costa Rica,Americas,01-01-2019,8240.0,1.62
 Croatia,Europe,01-01-2019,16520.0,4.06
 Cuba,Americas,01-01-2019,25910.0,2.29
 Cyprus,Asia,01-01-2019,7190.0,5.85
-Czechia,Europe,01-01-2019,96290.0,9.02
-Dem. Rep. Congo,Africa,01-01-2019,3210.0,0.04
+Czech Republic,Europe,01-01-2019,96290.0,9.02
+Democratic Republic Of Congo,Africa,01-01-2019,3210.0,0.04
 Denmark,Europe,01-01-2019,29700.0,5.11
 Djibouti,Africa,01-01-2019,420.0,0.39
 Dominica,Americas,01-01-2019,170.0,2.38
-Dominican Rep.,Americas,01-01-2019,27230.0,2.5
+Dominican Republic,Americas,01-01-2019,27230.0,2.5
 Ecuador,Americas,01-01-2019,39290.0,2.27
 Egypt,Africa,01-01-2019,249370.0,2.36
 El Salvador,Americas,01-01-2019,7800.0,1.24
-Eq. Guinea,Africa,01-01-2019,5350.0,3.44
+Equatorial Guinea,Africa,01-01-2019,5350.0,3.44
 Eritrea,Africa,01-01-2019,880.0,0.25
 Estonia,Europe,01-01-2019,10180.0,7.67
-eSwatini,Africa,01-01-2019,960.0,0.82
+Eswatini,Africa,01-01-2019,960.0,0.82
 Ethiopia,Africa,01-01-2019,18360.0,0.16
 Fiji,Oceania,01-01-2019,1630.0,1.77
 Finland,Europe,01-01-2019,40710.0,7.37
@@ -87,8 +87,8 @@ Kazakhstan,Asia,01-01-2019,212110.0,11.46
 Kenya,Africa,01-01-2019,22280.0,0.44
 Kiribati,Oceania,01-01-2019,90.0,0.72
 Kuwait,Asia,01-01-2019,92650.0,20.86
-Kyrgyzstan,Asia,01-01-2019,10050.0,1.56
-Laos,Asia,01-01-2019,18710.0,2.59
+Kyrgyz Republic,Asia,01-01-2019,10050.0,1.56
+Lao PDR,Asia,01-01-2019,18710.0,2.59
 Latvia,Europe,01-01-2019,7570.0,3.96
 Lebanon,Asia,01-01-2019,27950.0,4.83
 Lesotho,Africa,01-01-2019,770.0,0.35
@@ -123,7 +123,7 @@ Nicaragua,Americas,01-01-2019,5240.0,0.79
 Niger,Africa,01-01-2019,2150.0,0.09
 Nigeria,Africa,01-01-2019,115280.0,0.57
 North Korea,Asia,01-01-2019,56040.0,2.18
-Macedonia,Europe,01-01-2019,8300.0,4.0
+North Macedonia,Europe,01-01-2019,8300.0,4.0
 Norway,Europe,01-01-2019,35950.0,6.72
 Oman,Asia,01-01-2019,76030.0,16.52
 Pakistan,Asia,01-01-2019,190570.01,0.85
@@ -136,7 +136,7 @@ Philippines,Asia,01-01-2019,145420.0,1.32
 Poland,Europe,01-01-2019,295130.0,7.77
 Portugal,Europe,01-01-2019,44640.0,4.34
 Qatar,Asia,01-01-2019,91970.0,32.76
-Congo,Africa,01-01-2019,7260.0,1.3
+Republic Of Congo,Africa,01-01-2019,7260.0,1.3
 Romania,Europe,01-01-2019,73950.0,3.82
 Russia,Europe,01-01-2019,1703589.97,11.8
 Rwanda,Africa,01-01-2019,1330.0,0.1
@@ -148,13 +148,13 @@ Serbia,Europe,01-01-2019,45950.0,6.62
 Seychelles,Africa,01-01-2019,610.0,6.25
 Sierra Leone,Africa,01-01-2019,900.0,0.11
 Singapore,Asia,01-01-2019,47380.0,8.31
-Slovakia,Europe,01-01-2019,31080.0,5.7
+Slovak Republic,Europe,01-01-2019,31080.0,5.7
 Slovenia,Europe,01-01-2019,13600.0,6.51
 Solomon Islands,Oceania,01-01-2019,360.0,0.53
 Somalia,Africa,01-01-2019,690.0,0.04
 South Africa,Africa,01-01-2019,439640.01,7.57
 South Korea,Asia,01-01-2019,610789.98,11.8
-S. Sudan,Africa,01-01-2019,1700.0,0.16
+South Sudan,Africa,01-01-2019,1700.0,0.16
 Spain,Europe,01-01-2019,239980.0,5.09
 Sri Lanka,Asia,01-01-2019,23780.0,1.09
 St. Kitts And Nevis,Americas,01-01-2019,250.0,5.24
@@ -164,7 +164,7 @@ Sudan,Africa,01-01-2019,20620.0,0.48
 Suriname,Americas,01-01-2019,2650.0,4.41
 Sweden,Europe,01-01-2019,35000.0,3.41
 Switzerland,Europe,01-01-2019,37380.0,4.36
-Syria,Asia,01-01-2019,25710.0,1.28
+Syrian Arab Republic,Asia,01-01-2019,25710.0,1.28
 Tajikistan,Asia,01-01-2019,9420.0,1.01
 Tanzania,Africa,01-01-2019,12450.0,0.21
 Thailand,Asia,01-01-2019,267090.0,3.75
@@ -176,11 +176,11 @@ Tunisia,Africa,01-01-2019,29910.0,2.48
 Turkey,Asia,01-01-2019,396840.0,4.75
 Turkmenistan,Asia,01-01-2019,72870.0,11.83
 Tuvalu,Oceania,01-01-2019,10.0,0.91
-United Arab Emirates,Asia,01-01-2019,188860.0,20.5
+UAE,Asia,01-01-2019,188860.0,20.5
 Uganda,Africa,01-01-2019,5860.0,0.14
 Ukraine,Europe,01-01-2019,174730.0,3.94
 United Kingdom,Europe,01-01-2019,348920.01,5.22
-United States of America,Americas,01-01-2019,4817720.21,14.67
+United States,Americas,01-01-2019,4817720.21,14.67
 Uruguay,Americas,01-01-2019,6490.0,1.89
 Uzbekistan,Asia,01-01-2019,116710.0,3.48
 Vanuatu,Oceania,01-01-2019,210.0,0.69
