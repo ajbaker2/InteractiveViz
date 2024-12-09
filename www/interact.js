@@ -51,6 +51,7 @@ const dropdownContainer = d3.select("#dropdown-container");
 const metricSelect = d3.select("#metric-select");
 const progressBar = d3.select("#progress-bar");
 
+// AI: information under multiple_load in citations
 // promise all because multiple things to load
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"),
@@ -64,6 +65,7 @@ Promise.all([
   console.log(emissionsDataAll);
 
   // creating two datasets as key-value pairs
+  // AI ChatGPT: details in citations under splitting_data
   const emissionsByCountry = {};
   emissionsData.forEach((d) => {
     emissionsByCountry[d.Country] = {
@@ -97,6 +99,7 @@ Promise.all([
     const margin = { top: 5, right: 5, bottom: 20, left: 35 };
 
     // filter the specific country, sorted bc that matters apparantly
+    // AI: details in citations under weird_line_charts
     const countryData = emissionsDataAll
       .filter((d) => d.Country === country)
       .sort((a, b) => +a.Year - +b.Year);
@@ -156,7 +159,8 @@ Promise.all([
     g.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale).ticks(4).tickFormat(d3.format("d")));
-
+    
+    // AI: information in citations under tick_formatting
     // y-axis and labels, reformatting for easier reading
     g.append("g").call(
       d3
@@ -217,6 +221,7 @@ Promise.all([
         : "No data";
 
       // show tooltip with country info
+      // AI: information under tooltip in citations
       d3.select("#tooltip")
         .classed("hidden", false)
         .style("left", `${event.pageX + 10}px`)
@@ -287,6 +292,7 @@ function hideTextBox() {
   textBox.style("opacity", 0).style("transform", "translate(-50%, 50px)");
 }
 
+// AI: information regarding this can be found under scrollama in citations
 // scrollama setup
 function setupScrollama() {
   scroller
